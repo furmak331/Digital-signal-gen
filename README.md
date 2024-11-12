@@ -134,7 +134,7 @@ PCM is widely used in:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/dsp-workbench.git
+   git clone https://github.com/furmak331/Digital-signal-gen.git
    ```
 
 2. Install dependencies:
