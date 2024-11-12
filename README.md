@@ -134,4 +134,3 @@ Below is an illustration of **B8ZS** and **HDB3** scrambling:
 
 ## Acknowledgments
 - Department of Information Technology
-```
