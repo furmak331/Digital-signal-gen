@@ -86,12 +86,42 @@ Below is an illustration of **B8ZS** and **HDB3** scrambling:
 
 ### **Analog-to-Digital Conversion**
 
-#### **Pulse Code Modulation (PCM)**  
-- **Description**:  
-  Converts analog signals into digital using:  
-  1. **Sampling**: Discrete-time representation of the signal.  
-  2. **Quantization**: Approximation to a finite set of levels.  
-  3. **Encoding**: Conversion of quantized values to binary form.  
+# Pulse Code Modulation (PCM)
+
+## Overview
+Pulse Code Modulation (PCM) is a technique used to convert analog signals (which vary continuously over time) into a digital format that computers or digital systems can process. PCM is widely used in audio and telecommunications to ensure that analog information, like sound waves or sensor data, is accurately captured, processed, and transmitted as digital data.
+
+## Steps in PCM
+
+### 1. Sampling
+- **Description**: Sampling is the process of measuring the amplitude (height) of an analog signal at regular intervals over time.
+- **Purpose**: It creates a discrete-time representation of the continuous analog signal.
+- **Nyquist Theorem**: To accurately represent a signal digitally, the sampling rate must be at least twice the highest frequency present in the signal. This prevents aliasing, a type of distortion caused by undersampling.
+- **Example**: In digital audio, if the highest frequency to capture is 20 kHz (within the human hearing range), the sampling rate should be at least 40 kHz.
+
+### 2. Quantization
+- **Description**: Quantization is the process of mapping the sampled amplitudes to a finite set of levels, rounding each sample to the nearest level.
+- **Purpose**: Translates the continuous range of amplitude values into discrete steps, making it possible to represent each sample with a limited number of bits.
+- **Quantization Error**: Rounding introduces slight inaccuracies called quantization errors. More quantization levels reduce this error but increase data size.
+- **Example**: In 8-bit quantization, each sample is rounded to one of 256 levels. A higher bit depth (e.g., 16-bit or 24-bit) provides more levels, reducing quantization error and capturing more detail.
+
+### 3. Encoding
+- **Description**: Encoding converts each quantized sample into a binary number, creating a sequence of bits that represent the signal.
+- **Purpose**: This binary data is suitable for storage, processing, or transmission by digital systems.
+- **Bit Depth**: The bit depth (e.g., 8-bit, 16-bit) determines the number of binary digits used per sample, affecting data size and accuracy. Higher bit depths yield higher fidelity but increase data storage requirements.
+- **Example**: With a 16-bit depth, each sample is encoded into a binary value with 16 bits, allowing for 65,536 possible quantization levels.
+
+## Applications
+PCM is widely used in:
+- **Digital Audio**: Examples include CDs, where audio is sampled at 44.1 kHz with a 16-bit depth.
+- **Digital Telephony**: PCM allows efficient voice data transmission over digital networks.
+- **Video and Data Communication**: PCM facilitates the reliable digital transmission of analog signals by minimizing noise and preserving signal quality.
+
+
+```python
+# Sample code to illustrate PCM sampling, quantization, or encoding
+# (Add code snippets or examples if relevant)
+
 
 #### **Delta Modulation**  
 - **Description**:  
@@ -129,7 +159,7 @@ Below is an illustration of **B8ZS** and **HDB3** scrambling:
 ---
 ## Authors
 - Furqan Makhdoomi - 2022BITE005
-- Mohammad Owais - 2022BITE006
+- Mohammad Oyaiss Ussman - 2022BITE006
 - Musharaf Maqbool - 2022BITE053
 
 ## Acknowledgments
