@@ -11,12 +11,13 @@ def print_fancy_header():
     ╔══════════════════════════════════════════════════════════════╗
     ║                                                              ║
     ║           Digital Signal Processing Workbench v1.0           ║
-    ║            By Furqan Makhdoomi & Mohammad Oyaiss             ║
+    ║             Furqan, Mohammad Oyaiss  and Musharaf            ║
     ║                                                              ║
     ║           Department of Information Technology               ║
     ║                        ©  5th Sem                            ║
     ║                                                              ║
     ╚══════════════════════════════════════════════════════════════╝
+
     """
     print(header)
 def loading_animation():
