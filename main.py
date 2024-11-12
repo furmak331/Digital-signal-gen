@@ -11,7 +11,7 @@ def print_fancy_header():
     ╔══════════════════════════════════════════════════════════════╗
     ║                                                              ║
     ║           Digital Signal Processing Workbench v1.0           ║
-    ║            By Furqan Makhdoomi & Mohammad Owais              ║
+    ║            By Furqan Makhdoomi & Mohammad Oyaiss             ║
     ║                                                              ║
     ║           Department of Information Technology               ║
     ║                        ©  5th Sem                            ║
