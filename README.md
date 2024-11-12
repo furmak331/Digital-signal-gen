@@ -138,10 +138,15 @@ PCM is widely used in:
    ```
 
 2. Install dependencies:
+
    ```bash
    pip install numpy matplotlib
    ```
-
+3. Run the program:
+  ```bash
+   cd digital-signal-gen
+   python main.py
+   ```
 ---
 
 ## **References**
