@@ -1,4 +1,3 @@
-Here’s the enhanced and detailed README with well-explained definitions, improved explanations for scrambling techniques, properly referenced content, and included images.
 
 ---
 
