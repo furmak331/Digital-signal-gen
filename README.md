@@ -13,18 +13,16 @@ A Python-based tool to generate and visualize various digital and line encoding 
 1. Clone the repository:
    ```bash
    git clone https://github.com/furmak331/Digital-signal-gen.git
-   cd digital-signal-generator
+   cd digital-signal-gen
    ```
 2. Run the script:
    ```bash
-   python3 signal_generator.py
+   python main.py
    ```
 3. Follow the prompts to input data and choose encoding schemes.
 
 ## Requirements
-- Python 3.x
+- Python 
 - NumPy
 - Matplotlib
 
-## License
-This project is open-source. Feel free to use and modify it as needed!
