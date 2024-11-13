@@ -34,7 +34,7 @@ A Python-based tool for generating and visualizing various **digital line coding
 **Visual Comparison:**  
 ![Encoding Comparison](https://img.electronicdesign.com/files/base/ebm/electronicdesign/image/2021/04/WtD_Manchester_NRZ_NRZI_promo.6080cd13035b8.png?auto=format,compress&fit=crop&q=45&h=528&height=528&w=950&width=950)
 
-*Image Credit: [Electronic Design](https://www.electronicdesign.com/technologies/communications/article/21802271/electronic-design-whats-the-difference-between-nrz-nrzi-and-manchester-encoding)*
+*Image Credit: [Electronic Design]http://www.tutorialspoint.com/data_communication_computer_network/images/Polar_NRZ.jpg)*
 
 **Differential Manchester Vs Manchester Encoding**
 
