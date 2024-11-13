@@ -32,7 +32,7 @@ A Python-based tool for generating and visualizing various **digital line coding
   - **No transition at the start** represents binary `1`.  
 
 **Visual Comparison:**  
-![Encoding Comparison](https://img.electronicdesign.com/files/base/ebm/electronicdesign/image/2021/04/WtD_Manchester_NRZ_NRZI_promo.6080cd13035b8.png?auto=format,compress&fit=crop&q=45&h=528&height=528&w=950&width=950)
+![Encoding Comparison](http://www.tutorialspoint.com/data_communication_computer_network/images/Polar_NRZ.jpg)
 
 *Image Credit: [Electronic Design]http://www.tutorialspoint.com/data_communication_computer_network/images/Polar_NRZ.jpg)*
 
