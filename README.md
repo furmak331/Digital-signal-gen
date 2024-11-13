@@ -1,7 +1,5 @@
 
----
-
-# **Digital Signal Processing Workbench**
+# **Digital Signal Generator and visualiser**
 
 A Python-based tool for generating and visualizing various **digital line coding schemes** and **analog-to-digital conversion methods**.
 
@@ -167,5 +165,4 @@ PCM is widely used in:
 - Mohammad Oyaiss Ussman - 2022BITE006
 - Musharaf Maqbool - 2022BITE053
 
-## Acknowledgments
-- Department of Information Technology
+
